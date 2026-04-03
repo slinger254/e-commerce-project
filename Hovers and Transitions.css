@@ -1,0 +1,135 @@
+.company-website{
+     background-color: rgb(47, 47, 245);
+     padding-left: 13px;
+     padding-bottom: 13px;
+     padding-right: 13px;
+     padding-top: 13px;
+     color: white;
+     font-size: 16px;
+     border-radius: 20px;
+     border-style: none;
+     cursor: pointer;
+     transition:back-ground color 0.5s;
+     }
+.company-website:hover {
+      background-color:rgb(87, 87, 236);
+}
+.company-website:active{
+    background-color: rgb(150, 191, 231);
+    color: blue;
+    border-color: aliceblue;
+}
+
+.save-button{
+    background-color: white;
+    color: rgb(6, 46, 133);
+    padding-left: 13px;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    border-radius: 20px;
+    border-color: blue;
+    
+    font-size: 16px;
+    cursor: pointer;
+}
+.save-button:hover {
+    background-color: rgb(183, 183, 202);
+    color: blue;
+}
+.save-button:active{
+    color: white;
+    background-color: rgb(6, 46, 133);
+}
+.privacy-policy{
+    color: rgb(82, 81, 81);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.agree-join{
+    color: aliceblue;
+    background-color: rgb(47, 47, 245);
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 40px;
+    padding-bottom: 13px;
+    padding-right: 40px;
+    padding-top: 13px;
+}
+.agree-join:hover{
+    cursor: pointer;
+    background-color: rgb(87, 87, 236);
+}
+.agree-join:active{
+    color: rgb(47, 47, 245);
+    background-color: rgb(90, 146, 196);
+}
+.LinkedIn-comment{
+    vertical-align: middle;
+}
+.link-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.comment{
+    color: rgb(70, 67, 67);
+    margin-right: 50px;
+}
+.link-tweet{
+    color: aliceblue;
+    background-color: rgb(47, 47, 245);
+    border-radius: 20px;
+    font-size: 15px;
+    border-style: none;
+    padding-left: 21px;
+    padding-bottom: 13px;
+    padding-right: 21px;
+    padding-top: 13px;
+}
+.link-tweet:hover{
+    cursor: pointer;
+    background-color: rgb(87, 87, 236);
+}
+.link-tweet:active{
+    color: rgb(47, 47, 245);
+    background-color: rgb(90, 146, 196);
+}
+.first-name{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    width: 150px;
+}
+.second-name{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    width: 150px;
+}
+.email-add{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    width: 305px;
+}
+.sign-up{
+    color: white;
+    background-color: rgb(77, 77, 236);
+    padding: 10px;
+    width: 305px;
+    border-style: none;
+    border-radius: 9px;
+    font-size: medium;
+}
+.sign-up:hover{
+    background-color: rgb(94, 94, 235);
+    cursor: pointer;
+}
+.sign-up:active{
+    background-color: brown;
+}

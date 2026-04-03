@@ -1,0 +1,103 @@
+.header{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.level{
+    font-family: verdana;
+    color: grey;
+}
+.description{
+    font-family: verdana;
+    width: 250px;
+}
+.start-button{
+    font-family: verdana;
+    color: white;
+    background-color: rgb(38, 161, 38);
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-top: 5px;
+    border-style: none;
+}
+.start-button:hover{
+    cursor: pointer;
+    background-color: rgb(14, 146, 31);
+}
+.start-button:active{
+        background-color: brown;
+}
+.deals{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+.period{
+    color: red;
+    font-style: italic;
+    margin-top: 1px;
+}
+.business{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.apple{
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.more-information{
+    color: rgb(24, 24, 153);
+    text-align: center;
+    padding: 2px;
+   
+   
+}
+.more-information:hover{
+    color: rgb(80, 80, 230);
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.more-information:active{
+    color: brown;
+}
+.camp{
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 0px;
+}
+.tag{
+    color: grey;
+    font-weight: lighter;
+}
+.camp-description{
+    font-family: Arial;
+    width: 350px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.camp-details{
+    font-family: Arial;
+    font-weight: bolder;
+}
+.camp-link{
+    color: rgb(28, 101, 236);
+}
+.camp-link:hover{
+    text-decoration: underline;
+    color: brown;
+    cursor: pointer;
+}
+.camp-link:active{
+        color: blue;
+    }

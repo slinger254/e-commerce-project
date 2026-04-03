@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FB</title>
+        <style>
+            .full-container{
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                column-gap: 20px;
+            }
+            .each-profile{
+                width: 150px;
+                text-align: center;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                
+                
+                display: inline-block;
+            }
+            .profile-picture{
+                width: 150px;
+                height: 140px;
+                margin-bottom: 0px;
+            }
+            .friend-profile{
+                width: 25px;
+                height: 25px;
+                border-radius: 30px;
+                align-items: center;
+                margin-left: 4px;
+            }
+            .profile-name{
+                font-weight: bold;
+                font-family: arial;
+                font-size: smaller;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .mutual-profile{
+                display: grid;
+                grid-template-columns: 20px 1fr;
+                align-items: center;
+                margin-top: 0px;
+                
+            }
+            .mutual-friends{
+                align-items: center;
+                margin-left: 7px;
+                font-size: small;
+                font-family: arial;
+                color: rgb(96, 96, 96);
+            }
+            .add-button{
+                padding-left: 10px;
+                padding-bottom: 5px;
+                padding-right: 10px;
+                padding-top: 5px;
+                background-color: rgb(42, 111, 168);
+                color: white;
+                border-style: solid;
+                border-color: rgb(42, 111, 168);
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="full-container">
+            <div class="each-profile">
+                <img class="profile-picture" src="pics/pet1.jpg">
+                <p class="profile-name">Oliver</p>
+            <div class="mutual-profile">
+                <img class="friend-profile"  src="pics/pet2.jpg">
+                <p class="mutual-friends">2 mutual friends</p>
+            </div>    
+                <button class="add-button">Add Friend</button>
+            </div>
+            <div class="each-profile">
+                <img class="profile-picture" src="pics/mem2.png">
+                <p class="profile-name">Mimi</p>
+            <div class="mutual-profile">
+                <img class="friend-profile"  src="pics/pet2.jpg">
+                <p class="mutual-friends">5 mutual friends</p>
+            </div>    
+                <button class="add-button">Add Friend</button>
+            </div>
+            <div class="each-profile">
+                <img class="profile-picture" src="pics/mem3.png">
+                <p class="profile-name">Rex</p>
+            <div class="mutual-profile">
+                <img class="friend-profile"  src="pics/pet2.jpg">
+                <p class="mutual-friends">4 mutual friends</p>
+            </div>    
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>

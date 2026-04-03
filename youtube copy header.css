@@ -1,0 +1,274 @@
+           .header-div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 45px;
+                align-items: center;
+                flex: 1;
+                text-align: center;
+                background-color: white;
+                
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 100;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-color: rgb(231, 231, 231);
+                
+            }
+            .right-header{          
+                align-content: center;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .three-line-div{
+                position: relative;
+            }
+            .three-line-tooltip{
+                background-color: grey;
+                color: white;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-right: 8px;
+                padding-top: 4px;
+                font-size: 11px;
+                left: 0;
+                bottom: -20;
+                position: absolute;
+                opacity: 0;
+                pointer-events: none;
+                z-index: 201;
+            }
+            .three-line-div:hover .three-line-tooltip{
+                opacity: 1;
+            }
+            .three-line{
+                height: 18px;
+                width: 20px;
+                margin-left: 20px;
+                margin-right: 18px;
+            }
+            .ytb-logo-div{
+                position: relative;
+            }
+            .ytb-logo-tooltip{
+                position: absolute;
+                bottom: -20;
+                right: 8px;
+                background-color: grey;
+                color: white;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-right: 8px;
+                padding-top: 4px;
+                font-size: 11px;
+                opacity: 0;
+                pointer-events: none;
+            }
+            .ytb-logo-div:hover .ytb-logo-tooltip{
+                opacity: 1;
+            }
+            .ytb-logo{
+                height: 35px;
+                width: 110px;
+                margin-top: 6px;
+            }
+            .middle-header{
+                display: flex;
+                height: 40px;
+                align-content: center;
+                flex: 1;
+            }
+            .search-box{
+                height: 37px;
+                width: 0px;
+                margin-right: 0px;
+                padding-left: 10px;
+                font-size: 15px;
+                flex: 1;
+                border-style: solid;
+                border-color: rgb(192, 192, 196);
+                border-width: 1px;
+                box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.1);
+            }
+            .search-box::placeholder{
+                font-size: 14px;
+                padding-left: 5px;
+            }
+            .search-button{
+                width: 50px;
+                height: 41px;
+                vertical-align: middle;
+                background-color: white;
+                border-style: solid;
+                border-color: rgb(192, 192, 196);
+                border-width: 1px;
+                margin-left: -1px;
+                margin-right: 5px;
+                position: relative;
+            }
+            .tooltip{
+                position: absolute;
+                top: 41px;
+                background-color: grey;
+                color: white;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-right: 8px;
+                padding-top: 4px;
+                font-size: 11px;
+                left: 0;
+                bottom: -20;
+                opacity: 0;
+                pointer-events: none;
+            }
+            .search-button:hover .tooltip{
+                opacity: 1;
+            }
+            .audio-button{
+                width: 34px;
+                height: 41px;
+                vertical-align: middle;
+                background-color: white;
+                border-style: solid;
+                border-color: rgb(96, 96, 96);
+                border-width: 1px;
+                border-style: none;
+                border-radius: 20px;
+                position: relative;
+            }
+            .audio-tooltip{
+                position: absolute;
+                top: 41px;
+                background-color: grey;
+                color: white;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-right: 8px;
+                padding-top: 4px;
+                font-size: 11px;
+                left: -50px;
+                right: -50px;
+                bottom: -20;
+                opacity: 0;
+                pointer-events: none;
+            }
+            .audio-button:hover .audio-tooltip{
+                opacity: 1;
+            }
+            .meet-button:hover .meet-tooltip{
+                opacity: 1;
+            }
+            .meet-pic,.more-pic,.bell-pic{
+                flex: 1;
+                height: 15px;
+                align-content: center;
+                border-radius: 10%;
+                border-style: none;
+            }
+            .meet-tooltip{
+                position: absolute;
+                top: 40px;
+                background-color: grey;
+                color: white;
+                font-size: 10px;
+                padding-left: 8px;
+                padding-bottom: 4px;
+                padding-right: 8px;
+                padding-top: 4px;
+                font-size: 11px;
+                right: -13px;
+                left: -3px;
+                bottom: -15;
+                opacity: 0;
+                pointer-events: none;
+            }
+            .header-pic{
+                flex: 1;
+                height: 22px;
+                align-content: center;
+                border-radius: 100%;
+                border-style: none;
+            }
+            .meet-button,.more-button,.header-button{
+                border-style: none;
+                background-color: white;
+                flex: 1;  
+                position: relative;
+            }
+            .more-tooltip{
+                position: absolute;
+                bottom: -18px;
+                left: -25px;
+                right: -25px;
+                background-color: grey;
+                color: white;
+                padding-left: 6px;
+                padding-bottom: 3px;
+                padding-right: 6px;
+                padding-top: 3px;
+                opacity: 0;
+                pointer-events: none;
+                font-size: 11px;
+            }
+            .more-button:hover .more-tooltip{
+                opacity: 1;
+            }
+            .notification-tooltip{
+                position: absolute;
+                bottom: -18px;
+                left: -25px;
+                right: -25px;
+                background-color: grey;
+                color: white;
+                padding-left: 6px;
+                padding-bottom: 3px;
+                padding-right: 6px;
+                padding-top: 3px;
+                opacity: 0;
+                pointer-events: none;
+                font-size: 11px;
+            }
+            .bell-button:hover .notification-tooltip{
+                opacity: 1;
+            }
+            .search-pic-button,.audio-pic-button{
+                height: 15px;
+                align-content: center;
+            }
+            .left-header{
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                width: 180px;
+                height: 40px;
+            }
+            .bell-button{
+                border-style: none;
+                background-color: white;
+                flex: 1;
+                position: relative;   
+            }
+            .notification-numbers{
+                background-color: rgb(200, 0, 0);
+                color: white;
+                width: 14px;
+                height: 3px;
+                padding-top: 3px;
+                padding-bottom: 10px;
+                padding-left: 1px;
+                padding-right: 1px;
+                border-radius: 100px;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                right: 0;
+                left: 20px;
+                margin-top: 3px;
+                font-size: 9px;
+                
+            }

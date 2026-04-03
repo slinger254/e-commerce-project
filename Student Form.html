@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Form</title>
+    <link rel="stylesheet" href="Student Form.css">
+    <link rel="icon" type="images/jpeg" href="pics/car-1.jpg">
+  </head>
+  <body>
+    <div class="body-container">
+      
+    <div class="siis-head">
+    <h1>School of Infomatics and Innovative System</h1>
+    <h2>Student Data</h2>
+    </div><hr>
+    
+      <form class="form-body">
+      <fieldset class="fieldset-class">
+        <legend><b>Personal Details</b></legend>
+      <label for="firstname">Full Name:</label><br>
+      <input class="detail-div" id="firstname" type="text" name="firstname" placeholder="Enter your first Name" required>
+      <input class="detail-div" id="secondname" type="text" name="secondname" placeholder="Enter your second Name" required><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender" value="Female">Female<br><br>
+
+      <label>Date of Birth:</label><br>
+      <input class="detail-div" type="date" required><br><br>
+      </fieldset><hr>
+      
+      <fieldset class="fieldset-class">
+        <legend><b>Academic Details</b></legend>
+      <label>Registration Number:</label><br>
+      <input class="detail-div" type="text" name="registrationNumber" placeholder="Enter your Registration Number" required><br><br>
+
+      <label>Course Enrolled:</label><br>
+      <select class="detail-div" required>
+        <option value="">-- Select Your Course --</option>
+        <option value="ICT">Information and Communication Technology</option>
+        <option value="IT">Information Technology</option>
+        <option value="Forensics">Forensics</option>
+        <option value="BIS">Business Information System</option>
+      </select><br><br>
+
+        <label>Year of Study:</label><br>
+      <select class="detail-div" required>
+        <option value="">--Select your year of Study--</option>
+        <option value="y1">Year 1</option>
+        <option value="y2">Year 2</option>
+        <option value="y3">Year 3</option>
+        <option value="y4">Year 4</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label>Level of Study</label><br>
+      <input type="radio" name="level" value="Degree">Degree<br>
+      <input type="radio" name="level" value="Diploma">Diploma<br>
+      <input type="radio" name="level" value="Certificate">Certificate<br><br>
+      </fieldset><hr>
+      
+      <fieldset class="fieldset-class">
+        <legend><b>Additional Details</b></legend>
+      <label>Email Address:</label><br>
+      <input class="detail-div" type="email" placeholder="Enter your email addess" required><br><br>
+
+      <label>Contact Number:</label><br>
+      <input class="detail-div" type="tel" placeholder="0712345678" required><br><br>
+      </fieldset><hr>
+
+      <fieldset class="fieldset-class">
+        <legend><b>Emergency Contact One</b></legend>
+    <label>Name:</label><br>
+    <input class="detail-div" type="text" required><br><br>
+
+    <label>Relationship:</label><br>
+    <input class="detail-div" type="text" required><br><br>
+
+    <label>Phone:</label><br>
+    <input class="detail-div" type="tel" required><br><br>
+      </fieldset><hr>
+
+      <fieldset class="fieldset-class">
+        <legend><b>Emergency Contact Two</b></legend>
+    <label>Name:</label><br>
+    <input class="detail-div" type="text" required><br><br>
+
+    <label>Relationship:</label><br>
+    <input class="detail-div" type="text" required><br><br>
+
+    <label>Phone:</label><br>
+    <input class="detail-div" type="tel" required><br><br>
+      </fieldset><hr>
+
+
+      <label>Additional Information</label><br>
+      <textarea rows="5" cols="40" placeholder="Additional Information, Complain or comment"></textarea><br><br>
+      </fieldset>
+
+      <input type="checkbox" name="Terms" required> I confirm the above information is correct<br><br>
+      
+      <div class="button-div">
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+        
+      </div>  
+    </form>
+    
+    </div>
+</body>
+</html>

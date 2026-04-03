@@ -1,0 +1,100 @@
+    .amazon-header{
+         height: 50px;
+         background-color: rgb(26, 26, 26);
+         vertical-align: middle;
+         align-items: center;
+         display: flex;
+         flex: 1;
+         justify-content: space-between;
+            }
+@media (max-width:768px){
+.amazon-header{
+    flex-direction:column;
+    align-items:center;
+}
+.search-input{
+    width:90%;
+}
+}
+.R-O-button{
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(26, 26, 26);
+    flex: 1;
+        }
+.left-button{
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(26, 26, 26);
+    margin-left: 10px;
+        }
+.left-header{
+    padding-left: 10px;
+    width: 90px;     
+        }
+.amazon-icon{
+    height: 40px;
+    width: 85px;
+    vertical-align: middle;
+        }
+.middle-header{
+    align-content: center;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+        }
+.search-icon{
+    height: 32px;
+    padding-bottom: 0px;
+    margin-left: -1px;
+    vertical-align: middle;
+    border-radius: 2px;
+    border-style: none;
+        }
+.search-input{
+    height: 30px;
+    width: 500px;
+    border-style: none;
+    border-radius: 3px;
+    flex: 1;
+        }
+.search-input::placeholder{
+    padding-left: 10px;
+    color: rgb(182, 182, 182);
+        }
+.right-header{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding-right: 10px;
+    padding-left: 5px;
+        }
+.cart-icon{
+    height: 35px;
+        }
+.returns{
+    color: rgb(96, 96, 96);
+    font-size: 11px;
+    color: white;
+    padding-right: 8px;
+        }
+.orders{
+    font-weight: bold;
+    font-size: 13px;
+        }
+.cart-text{
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+        }
+.cart-button{
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-color: rgb(26, 26, 26);
+        }
+.left-button:hover, .R-O-button:hover, .cart-button:hover{
+    border-color: aliceblue;
+    cursor: pointer;
+        }

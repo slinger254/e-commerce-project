@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Checkout</title>
+ </head>
+<body>
+ <h1>Checkout</h1>
+ <ul id="checkout-items"></ul>
+ <h2>Total: $<span id="checkout-total"></span></h2>
+
+ <h3>M-Pesa Payment</h3>
+<div class="mpesa-payment">
+<input type="text" id="phone" placeholder="Enter M-Pesa phone number (07XXXXXXXX)">
+<button onclick="simulateMpesa()">Pay with M-Pesa</button>
+<p id="payment-status"></p>
+</div>
+
+<script>
+  let cart = JSON.parse(localStorage.getItem("cart"));
+  let total = localStorage.getItem("total");
+  let list = document.getElementById("checkout-items");
+
+cart.forEach(item => {
+  let li = document.createElement("li");
+li.textContent = item.name + " x " + item.quantity + " = $" + item.price;
+list.appendChild(li);
+});
+
+document.getElementById("checkout-total").textContent = total;
+
+function simulateMpesa(){
+  let phone = document.getElementById("phone").value;
+  let status = document.getElementById("payment-status");
+
+if(phone.length < 10){
+status.innerHTML = "Please enter a valid phone number.";
+return;
+}
+status.innerHTML = "Sending STK Push to your phone...";
+
+setTimeout(function(){
+status.innerHTML = "Waiting for payment confirmation...";
+},2000);
+
+setTimeout(function(){
+window.location.href = "success.html";
+},5000);
+}
+</script>
+
+</body>
+</html>

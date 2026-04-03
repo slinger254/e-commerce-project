@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercises</title>
+  </head>
+    <body>
+      <p>Cart Quantity</p>
+    <button onclick="
+     console.log(`Cart quantity: ${cartQuantity}`);">Show Quantity</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity + 1;
+    console.log(`Cart quantity: ${cartQuantity}`);">Add to cart</button>
+
+    <button onclick="
+    cartQuantity += 2;
+    console.log(`Cart quantity: ${cartQuantity}`);">+2</button>
+    
+    <button onclick="
+    cartQuantity = cartQuantity + 3;
+    console.log(`Cart quantity: ${cartQuantity}`);">+3</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity +=4;
+    console.log(`Cart quantity: ${cartQuantity}`);">+4</button>
+
+    <button onclick="
+    cartQuantity = cartQuantity +=5;
+    console.log(`Cart quantity: ${cartQuantity}`);
+    ">+5</button>
+
+    <button onclick="
+    cartQuantity--;
+    console.log(`One quantity removed`);
+    console.log(`Cart quantity: ${cartQuantity}`);
+    ">Remove</button>
+
+    <button onclick="
+    cartQuantity = 0;
+    console.log(`Cart was Reset`);
+    console.log(`Cart quantity: ${cartQuantity}`);">Reset Cart</button>
+    
+
+    <script>
+        let cartQuantity = 0;
+
+
+        let name ="Martin Mwema";
+        console.log(`My name is ${name}`);
+
+        let coffee = 5;
+        let bagels = 3;
+        let soup = 9;
+        let totalCost = coffee + (bagels * 2) + soup;
+        const taxCost = 10/100 * totalCost;
+        let cost = totalCost - taxCost;
+        console.log(`Total cost: $${totalCost}`);
+        console.log(`Total Tax cost: $${taxCost}`);
+        console.log(`Total cost after tax: $${cost}`);
+
+      </script>
+    </body>
+</html>
